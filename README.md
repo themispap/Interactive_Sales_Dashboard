@@ -2,8 +2,6 @@
 
 This project is an **Interactive Sales Dashboard** built using the R Shiny framework. It allows users to upload sales data, filter and explore it dynamically, view summary statistics, and visualize trends through interactive charts.
 
-
-
 ## Features
 
 - **File Upload**: Upload CSV files containing sales data.
@@ -12,19 +10,15 @@ This project is an **Interactive Sales Dashboard** built using the R Shiny frame
 - **Summary Statistics**: View key metrics like total sales and transactions.
 - **Visualization**: Interactive line plot to visualize sales trends.
 
-
-
 ## Demo
 
 <img src="screenshot.png" alt="App Screenshot" width="600">
-
-
 
 ## Installation
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/yourusername/interactive-sales-dashboard.git
+   git clone https://github.com/themispap/interactive-sales-dashboard.git
    ```
    
 2. **Navigate to the project directory**:
@@ -35,16 +29,14 @@ This project is an **Interactive Sales Dashboard** built using the R Shiny frame
 3. **Install dependencies**:
    Open R or RStudio and install the required R packages:
    ```R
-   install.packages(c("shiny", "DT", "ggplot2"))
+   install.packages(c("shiny", "DT", "dplyr", "ggplot2"))
    ```
 
 4. **Run the app**:
-   Open `app.R` in RStudio and click the **Run App** button, or use the following command:
+   Open `app.R` in RStudio and click the **Run App** button, or use the following command (making sure setting as working directory the directory of the app.R file):
    ```R
-   shiny::runApp("path/to/app.R")
+   shiny::runApp()
    ```
-
-
 
 ## How to Use
 
@@ -62,8 +54,6 @@ This project is an **Interactive Sales Dashboard** built using the R Shiny frame
    - **Summary Tab**: See key metrics such as total sales and transactions.
    - **Visualization Tab**: View trends in sales with a dynamic line plot.
 
-
-
 ## File Structure
 
 ```
@@ -71,10 +61,8 @@ interactive-sales-dashboard/
 │
 ├── app.R              # Main Shiny app script
 ├── README.md          # Project documentation
-└── example_data.csv   # Example CSV file for testing (optional)
+└── example_data.csv   # Example CSV file for testing
 ```
-
-
 
 ## Example CSV File
 
@@ -86,28 +74,13 @@ Here’s an example of the expected CSV structure:
 | 2024-01-02 | 700   | South       |
 | 2024-01-03 | 300   | East        |
 
-
-
-## Future Improvements
-
-- Add filters for additional variables (e.g., product category).
-- Include multiple visualization options (e.g., bar charts, pie charts).
-- Add support for multiple file uploads and aggregation.
-- Deploy the app online using [shinyapps.io](https://www.shinyapps.io/) or a Shiny Server.
-
-
-
 ## Contributing
 
 Contributions are welcome! If you have ideas for new features or bug fixes, feel free to fork this repository and submit a pull request.
 
-
-
 ## License
 
 This project is open-source and available under the MIT License.
-
-
 
 ## Acknowledgments
 
