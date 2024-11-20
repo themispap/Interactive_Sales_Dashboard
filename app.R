@@ -2,6 +2,7 @@
 library(shiny)  # For building the Shiny app
 library(DT)     # For rendering DataTables
 library(dplyr)  # For data manipulation
+library(ggplot2) # For ploting
 
 # Define the UI of the app
 ui <- fluidPage(
