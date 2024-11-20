@@ -68,11 +68,13 @@ interactive-sales-dashboard/
 
 Here’s an example of the expected CSV structure:
 
+
 | Date       | Sales | Region      |
-||-|-|
+|------------|-------|-------------|
 | 2024-01-01 | 500   | North       |
 | 2024-01-02 | 700   | South       |
 | 2024-01-03 | 300   | East        |
+
 
 ## Contributing
 
